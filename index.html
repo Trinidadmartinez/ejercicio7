@@ -4,12 +4,12 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        <title>Índice de la calidad de vida urbana</title>
+        <title>Índice de calidad de vida urbana</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap" rel="stylesheet" />
         <style>
             :root {
-                --bs-font-sans-serif: "DM Sans", sans-serif;
+                --bs-font-sans-serif-bold: "DM Sans", sans-serif;
             }
             :hover {
                 transition: all ease 0.5s;
@@ -19,7 +19,7 @@
             }
 
             header {
-                background: url("img/skyline-cabecera.svg") center bottom repeat-x, linear-gradient(#bbccdd, #fafafa);
+                background: url("img/ciudad.png") center bottom repeat-x, linear-gradient(#99CCCC, #99CCCC, #FFFFFF);
                 background-size: auto 100%;
                 padding: 15vh 0;
             }
@@ -46,7 +46,7 @@
 
             /* EN ESTE EJEMPLO ESTOY UTILIZANDO ICVU 2020*/
 
-            /* FUENTE: http://icvu.observatoriodeciudades.com/resultados?year=2019 */
+            /* FUENTE: https://estudiosurbanos.uc.cl/wp-content/uploads/2020/12/45151-2.pdf */
 
             /*ICVU 2020 NIVEL ALTO*/
 
@@ -60,7 +60,7 @@
             g#mapa path#san_miguel:hover,
             g#mapa path#santiago:hover,
             g#mapa path#vitacura:hover {
-                fill: RGBA(91, 155, 192, 0.5);
+                fill: RGBA(153, 204, 204, 0.5);
             }
 
             /*ICVU 2020 NIVEL MEDIO ALTO*/
@@ -73,7 +73,7 @@
             g#mapa path#maipu:hover,
             g#mapa path#penalolen:hover,
             g#mapa path#san_joaquin:hover {
-                fill: rgba(253, 141, 60, 0.5);
+                fill: rgba(102, 102, 255, 0.5);
             }
 
             /*ICVU 2020 NIVEL MEDIO BAJO*/
@@ -82,7 +82,7 @@
             g#mapa path#cerrillos:hover,
             g#mapa path#penaflor:hover,
             g#mapa path#pudahuel:hover {
-                fill: rgba(227, 26, 28, 0.5);
+                fill: rgba(204, 102, 204, 0.5);
             }
 
             #fondo-cuadros-vineta {
@@ -99,8 +99,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <h1 class="mb-3 mt-5 text-center">Índice de calidad de vida urbana.</h1>
-                        <h2 class="fs-6 mb-5 text-center text-uppercase">Por Gabriela Echeverría y Trinidad Martínez</h2>
+                        <h1 class="mb-3 mt-5 text-center text-uppercase">Índice de calidad de vida urbana</h1>
+                        <h2 class="fs-6 mb-5 text-center text-uppercase">Por Gabriela Echeverría y Trinidad Martínez.</h2>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                         El Índice de Calidad de Vida Urbana (ICVU) mide y compara en términos relativos la calidad de vida urbana de comunas y ciudades en Chile, a partir de un conjunto de variables referidas a seis dimensiones que expresan el estado de situación en la provisión de bienes y servicios públicos y privados a la población residente y sus correspondientes impactos socio-territoriales, tanto a la escala de ciudades intermedias como de ciudades metropolitanas. En este caso, comparamos las de la región metropolitana.
                     </p>
                     <p>
-                        Las dimensiones que conforman el ICVU son vivienda y entorno, condiciones socioculturales, ambiente de negocios, condiciones laborales, salud y medioambiente y conectividad y movilidad.
+                      Las dimensiones que conforman el ICVU son vivienda y entorno, condiciones socioculturales, ambiente de negocios, condiciones laborales, salud y medioambiente y conectividad y movilidad.
                     </p>
                 </div>
                 <div class="col-11 col-md-10 mx-auto py-3">
@@ -128,17 +128,17 @@
                             -- https://www.datawrapper.de/
                         3 - reemplazarla imagen con el SVG que obtengan desde la App.
                     -->
-                    <img src="img/Graficofinal.svg" class="w-100" />
+                    <img src="img/Grafico_ICVU.svg" class="w-100" />
                 </div>
 
                 <div class="col-10 col-md-8 mx-auto py-3">
                     <p>
-                        En el siguiente gráfico figurativo vemos como las comunas propuestas en el gráfico no figurativo de la parte superior se clasifican según su nivel de ICVU 2020 por los colores descritos.
+                        Reemplaza este párrafo con un texto que vincule el gráfico no figurativo de arriba con el gráfico mixto que sigue, que refiere a los resultados ICVU 2020 para las comunas de la Región Metropolitana de Santiago.
                     </p>
 
                     <svg enable-background="new 0 0 400 400" version="1.1" viewBox="0 0 400 400" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="py-3">
-                        <g id="Mapa Comunal Región Metropolitana">
-                            <image transform="scale(.5)" width="800" height="800" overflow="visible" xlink:href="img/comunassatelital.png" />
+                        <g id="fotografia satelital de santiago">
+                            <image transform="scale(.5)" width="800" height="800" overflow="visible" xlink:href="img/satelital-2.jpg" />
                         </g>
                         <g id="mapa">
                             <path
@@ -534,13 +534,13 @@
                         <g id="vineta">
                             <rect x="5" y="5" fill="rgba(255,255,255,0.9)" width="90" height="65" />
                             <!--primer dato-->
-                            <rect x="10" y="10" fill="rgba(91, 155, 192, 1)" width="10" height="10" />
+                            <rect x="10" y="10" fill="rgba(153,204,204,1)" width="10" height="10" />
                             <text x="25" y="17">Alto</text>
                             <!--segundo dato-->
-                            <rect x="10" y="25" fill="rgba(254,204,92,1)" width="10" height="10" />
+                            <rect x="10" y="25" fill="rgba(102, 102, 255,1)" width="10" height="10" />
                             <text x="25" y="32">Medio alto</text>
                             <!--tercer dato-->
-                            <rect x="10" y="40" fill="rgba(253,141,60,1)" width="10" height="10" />
+                            <rect x="10" y="40" fill="rgba(204, 102, 204,1)" width="10" height="10" />
                             <text x="25" y="47">Medio bajo</text>
                             <!--cuarto dato-->
                             <rect x="10" y="55" fill="rgba(227,26,28,1)" width="10" height="10" />
@@ -548,8 +548,7 @@
                         </g>
                     </svg>
                     <p>
-                        Mapa Comunal de <a href="https://www.latercera.com/nacional/noticia/mapa-interactivo-revisa-las-comunas-donde-es-obligatorio-el-uso-mascarillas-y-las-multas-que-se-arriesgan/QKS57VJH6FD5TKYJJBAFPYMHTQ/">La Tercera</a>.
-                    
+                        En el siguiente gráfico figurativo vemos como las comunas propuestas en el gráfico no figurativo de la parte superior se clasifican según su nivel de ICVU 2020 por los colores descritos.
                     </p>
                 </div>
             </div>
